@@ -24,7 +24,7 @@ authors:
     link: http://huamin.org/
 links:
   - name: paper
-    link: https://ieeexplore.ieee.org/abstract/document/8585719
+    link: files/2017_VAST_PreseVis.pdf
   - name: system demo
     link: https://georgegu1997.github.io/VAST-challenge-frontend/
 ---

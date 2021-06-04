@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master's student in Robotics at Carnegie Mellon University, where I am fortunate to work in the [R-Pad Lab](https://r-pad.github.io/) with [Prof. David Held](https://davheld.github.io/) and [Prof. Martial Hebert](http://www.cs.cmu.edu/~hebert/). My current research interest lies in computer vision and robot learning. 
+I am a Master's student in Robotics at [Carnegie Mellon University](https://www.ri.cmu.edu/), where I am fortunate to work in the [R-Pad Lab](https://r-pad.github.io/) with [Prof. David Held](https://davheld.github.io/) and [Prof. Martial Hebert](http://www.cs.cmu.edu/~hebert/). My current research interest lies in computer vision and robot learning. 
 
-Prior to joining CMU, I spent four wonderful years in [Hong Kong Unviersity of Science and Technology](https://www.ust.hk/home), where I have been lucky to work with [Prof. Chi-Keung Tang](http://www.cs.ust.hk/~cktang/bio-sketch-review.htm) and [Prof. Yu-Wing Tai](https://www.cse.ust.hk/admin/people/faculty/profile/yuwing) in computer vision and style transfer. I also had an internship in [Tencent Youtu Lab](https://open.youtu.qq.com/#/open). 
+Prior to joining CMU, I spent four wonderful years at [Hong Kong University of Science and Technology](https://www.ust.hk/home), where I have been lucky to work with [Prof. Chi-Keung Tang](http://www.cs.ust.hk/~cktang/bio-sketch-review.htm) and [Prof. Yu-Wing Tai](https://www.cse.ust.hk/admin/people/faculty/profile/yuwing) in computer vision and style transfer. I also had an internship in [Tencent Youtu Lab](https://open.youtu.qq.com/#/open). 
 
-I have a great passion about making robots that perceives the world like human do, and I am apply for CS Ph.D. program for Fall 2021. Feel free to contact me!
+I have a great passion for making robots that perceive the world as humans do. I am excited that I will be joining [University of Toronto](https://web.cs.toronto.edu/) as a CS Ph.D. student this fall, advised by [Florian Shkurti](http://www.cs.toronto.edu/~florian/). 
 
 # Publications 
 

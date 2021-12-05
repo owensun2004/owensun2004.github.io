@@ -12,7 +12,7 @@ I am a first-year Ph.D. student in [Robot Vision & Learning (RVL) Lab](https://r
 
 My research interest lies in computer vision and robotics. I am especially excited by perception algorithms that can generalize and adapt, and their applications in the robotic domain. 
 
-# Publications 
+# Selected Publications 
 
 {% include base_path %}
 

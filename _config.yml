@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Qiao Gu's Homepage"
 title_separator          : "-"
 name                     : &name "Qiao Gu"
-description              : &description "An M.S. in Robotics at Carnegie Mellon University"
+description              : &description "Qiao Gu, Ph.D. in Computer Science at University of Toronto"
 url                      : https://georgegu1997.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # url                      : "http://localhost:4000/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -83,12 +83,12 @@ analytics:
 author:
   name             : "Qiao Gu"
   avatar           : "profile.png"
-  bio              : "An M.S. in Robotics at Carnegie Mellon University."
-  location         : "Pittsburgh, PA, the U.S."
+  bio              : "Ph.D. Student in Computer Science at University of Toronto"
+  location         : "Toronto, ON, Canada"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=MF7ISVAAAAAJ&hl=en"
-  email            : "qiaog@andrew.cmu.edu"
+  email            : "qgu@cs.toronto.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -103,7 +103,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/qiao-gu/"
   orcid            : 
   pinterest        :
   soundcloud       :

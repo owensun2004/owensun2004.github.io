@@ -7,6 +7,7 @@ date: 2017-08-01
 venue: 'IEEE Conference on Visual Analytics Science and Technology (VAST), 2017'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/8585719'
 imgurl: 'preservis.png'
+show: false
 authors:
   - name: Qiao Gu
     link: 

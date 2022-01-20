@@ -30,11 +30,12 @@ My research interest lies in computer vision and robotics. I am especially excit
 
 # Teaching
 
+* Teaching Assistant for CSC384 - Intro to Artificial Intelligence, Winter 2022 at UofT
 * Teaching Assistant for CSC110 - Foundations of Computer Science I, Fall 2021 at UofT
 
 # Reviewer
 
-* RA-L, ICLR 2022, WACV 2022, ICCV 2021, ICRA 2021, ECCV 2020
+* RA-L, CVPR 2022, ICLR 2022, WACV 2022, ICCV 2021, ICRA 2021, ECCV 2020
 
 # Awards
 

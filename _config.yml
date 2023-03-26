@@ -58,7 +58,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter qiaogu1997
 facebook:
   username               :
   app_id                 :
@@ -82,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : "Qiao Gu"
-  avatar           : "profile.png"
+  avatar           : "photo_crop.jpeg"
   bio              : "Ph.D. Student in Computer Science at University of Toronto"
   location         : "Toronto, ON, Canada"
   employer         :
@@ -116,6 +116,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  resume           : "files/CV_full.pdf"
 
 
 # Reading Files

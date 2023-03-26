@@ -30,16 +30,18 @@ My research interest lies in computer vision and robotics. I am especially excit
 
 # Teaching
 
+* Teaching Assistant for CSC384 - Intro to Artificial Intelligence, Fall 2022 at UofT
 * Teaching Assistant for CSC384 - Intro to Artificial Intelligence, Winter 2022 at UofT
 * Teaching Assistant for CSC110 - Foundations of Computer Science I, Fall 2021 at UofT
 
 # Reviewer
 
-* RA-L, CVPR 2022, ICLR 2022, WACV 2022, ICCV 2021, ICRA 2021, ECCV 2020
+* RA-L, ICML 2023, CVPR 2023, ICLR 2023, WACV 2023, ICCV 2023, CVPR 2022, ICLR 2022, WACV 2022, IROS 2022, NeurIPS 2022, ICCV 2021, ICRA 2021 and ECCV 2020
 
 # Awards
 
 * Ontario Graduate Scholarship (2022-2023)
+* Acres Productive Technologies Inc./Joseph Yonan Memorial Fellowship (2023)
 * HKUST Academic Achievement Medal (2019)
 * HKSAR Government Scholarships (2017-2019)
 * High Fashion Charitable Foundation Exchange Scholarships (2018)

@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2023-02-conceptfusion
 excerpt: ''
 date: 2023-02-01
-venue: 'Preprint, 2023'
+venue: 'Robotics: Science and Systems (RSS) 2023'
 paperurl: 'https://arxiv.org/abs/2302.07241'
 imgurl: 'conceptfusion.gif'
 show: true
@@ -51,4 +51,6 @@ links:
     link: https://www.youtube.com/watch?v=rkXgws8fiDs
   - name: project page
     link: https://concept-fusion.github.io/
+  - name: code
+    link: https://github.com/concept-fusion/concept-fusion
 ---

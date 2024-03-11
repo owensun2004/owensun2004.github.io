@@ -8,11 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in [Robot Vision & Learning (RVL) Lab](https://rvl.cs.toronto.edu/) at University of Toronto, advised by Prof. [Florian Shkurti](http://www.cs.toronto.edu/~florian/). Prior to this, I obtained a M.S. in Robotics from Carnegie Mellon University, where I had fortunate to work with Prof. [David Held](https://davheld.github.io/) and Prof. [Martial Hebert](http://www.cs.cmu.edu/~hebert/). I received my Bachelor's degree from Hong Kong University of Science and Technology, where I have been lucky to work with Prof. [Chi-Keung Tang](http://www.cs.ust.hk/~cktang/bio-sketch-review.htm) and Prof. [Yu-Wing Tai](https://www.cse.ust.hk/admin/people/faculty/profile/yuwing). I also had an internship in [Tencent Youtu Lab](https://open.youtu.qq.com/#/open). 
+I am a Ph.D. student in the [Robot Vision & Learning (RVL) Lab](https://rvl.cs.toronto.edu/) at the University of Toronto, advised by Prof. [Florian Shkurti](http://www.cs.toronto.edu/~florian/). 
+My research interest lies in 3D computer vision and robotics. I am especially excited by robot perception and action algorithms that can generalize and adapt to novel environments. 
+Now I am enthusiastically exploring open-world 3D scene understanding algorithms that can leverage the power of 2D foundation models. 
 
-I am currently doing a Research Scientist Internship at Meta Reality Labs. 
+During my Ph.D., I did an internship at [Meta Reality Labs](https://about.meta.com/realitylabs/) on egocentric 3D perception, working closely with [Zhaoyang Lv](https://lvzhaoyang.github.io/) and [Chris Sweeney](https://scholar.google.com/citations?user=h-CpQGgAAAAJ&hl=en). 
 
-My research interest lies in 3D computer vision and robotics. I am especially excited by perception algorithms that can generalize and adapt, and their applications in the robotic domain. 
+
+Prior to this, I obtained an M.S. in Robotics from Carnegie Mellon University, where I was fortunate to work with Prof. [David Held](https://davheld.github.io/) and Prof. [Martial Hebert](http://www.cs.cmu.edu/~hebert/). I received my Bachelor's degree from the Hong Kong University of Science and Technology, where I have been lucky to work with Prof. [Chi-Keung Tang](http://www.cs.ust.hk/~cktang/bio-sketch-review.htm) and Prof. [Yu-Wing Tai](https://www.cse.ust.hk/admin/people/faculty/profile/yuwing). I also had an internship at [Tencent Youtu Lab](https://open.youtu.qq.com/#/open). 
+
+
 
 # Selected Publications 
 

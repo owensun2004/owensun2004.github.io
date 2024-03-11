@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2023-09-conceptgraph
 excerpt: ''
 date: 2023-02-01
-venue: 'In submission'
+venue: 'International Conference on Robotics and Automation (ICRA), 2024'
 paperurl: 'https://arxiv.org/abs/2309.16650'
 imgurl: 'conceptgraphs.gif'
 show: true

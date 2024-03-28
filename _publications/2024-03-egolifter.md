@@ -5,7 +5,7 @@ permalink: /publication/2024-03-conceptgraph
 excerpt: ''
 date: 2024-03-01
 venue: 'Preprint'
-paperurl: '.'
+paperurl: 'https://arxiv.org/abs/2403.18118'
 imgurl: 'egolifter.gif'
 show: true
 authors:
@@ -22,6 +22,10 @@ authors:
   - name: Chris Sweeney
     link: https://scholar.google.com/citations?user=h-CpQGgAAAAJ&hl=en
 links:
-#   - name: paper
-#     link: ./files/egolifter.pdf
+  - name: paper
+    link: https://arxiv.org/pdf/2403.18118.pdf
+  - name: video
+    link: https://youtu.be/hZIjGXIEF-Y
+  - name: project page
+    link: https://egolifter.github.io/
 ---

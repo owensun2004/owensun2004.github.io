@@ -1,13 +1,3 @@
-- id: kgSurvey
-  title: "Exploring knowledge graph-based neural-symbolic system from application perspective"
-  venue: arXiv, 2024
-  description: "This survey paper explores KG-based neural-symbolic integration, enhancing neural reasoning, improving symbolic accuracy, and combining both"
-  arxiv: 2405.03524
-  image: NS.png
-  authors:
-    - Shenzhe
-    - Shengxiang
-
 - id: minagen
   title: "Minagen: A Minimal Testing Ground for Building Cognitive Architectures for Generative Agents"
   venue: arXiv, 2024
@@ -20,5 +10,17 @@
     - Shenzhe
     - Rebekah
     - Wil
+
+- id: kgSurvey
+  title: "Exploring knowledge graph-based neural-symbolic system from application perspective"
+  venue: arXiv, 2024
+  description: "This survey paper explores KG-based neural-symbolic integration, enhancing neural reasoning, improving symbolic accuracy, and combining both"
+  arxiv: 2405.03524
+  image: NS.png
+  authors:
+    - Shenzhe
+    - Shengxiang
+
+
 
 

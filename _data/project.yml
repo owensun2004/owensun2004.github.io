@@ -1,9 +1,7 @@
-- id: kgSurvey
-  title: "Exploring knowledge graph-based neural-symbolic system from application perspective"
-  venue: arXiv, 2024
-  description: "This suvey paper explores KG-based neural-symbolic integration, enhancing neural reasoning, improving symbolic accuracy, and combining both"
-  arxiv: 2405.03524
-  image: reconfusion_before.png
+- id: Career
+  title: "Career Navigator: LLM & Knowledge Graph-Based Job Recommender Engine"
+  description: "Career Navigator is an job recommendation service based on LLM and Knowledge Graph, It addresses challenges students face on the CSM platform, improving job search efficiency."
+  image: visualisation.png
+  github: ShenzheZhu/Career_Navigator_UTSC_AScoop
   authors:
     - Shenzhe
-    - Shengxiang

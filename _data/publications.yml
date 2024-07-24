@@ -6,10 +6,14 @@
   image: sc_bench.png
   github:
   authors:
-    - Shenzhe
-    - Eric
-    - Rebekah
-    - Wil
+    - name: Shenzhe
+      equal_contributor: true
+    - name: Eric
+      equal_contributor: true
+    - name: Rebekah
+      equal_contributor: false
+    - name: Wil
+      equal_contributor: false
 
 - id: minagen
   title: "Minagen: A Minimal Testing Ground for Building Cognitive Architectures for Generative Agents"
@@ -19,10 +23,14 @@
   image: Cognitive-1.png
   github:
   authors:
-    - Eric
-    - Shenzhe
-    - Rebekah
-    - Wil
+    - name: Eric
+      equal_contributor: true
+    - name: Shenzhe
+      equal_contributor: true
+    - name: Rebekah
+      equal_contributor: false
+    - name: Wil
+      equal_contributor: false
 
 - id: kgSurvey
   title: "Exploring knowledge graph-based neural-symbolic system from application perspective"
@@ -31,9 +39,10 @@
   arxiv: 2405.03524
   image: NS.png
   authors:
-    - Shenzhe
-    - Shengxiang
-
+    - name: Shenzhe
+      equal_contributor: false
+    - name: Shengxiang
+      equal_contributor: false
 
 
 

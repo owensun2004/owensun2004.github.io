@@ -1,35 +1,19 @@
-- date: May 2022
-  description: I have defended and have joined Google as a research scientist.
+- date: Jun 2024
+  description: >-
+    I start my research intern in PRADA lab of [KAUST](https://www.kaust.edu.sa/en/) focusing on LLM Interpretability.
 
-- date: Oct 2021
+- date: May 2024
   description: >-
-    [_FiG-NeRF_](https://fig-nerf.github.io) has been accepted to 3DV 2021.
+    I begin working with Prof.[William Cunningham](https://www.psych.utoronto.ca/people/directories/all-faculty/william-cunningham), focusing on LLM agents for Social Cognition.
 
-- date: Sep 2021
+- date: May 2024
   description: >-
-    [_HyperNeRF_](https://hypernerf.github.io) has been accepted to SIGGRAPH Asia
-    2021. We have also released the [code](https://github.com/google/hypernerf).
+    I've released my first arxiv paper [Exploring knowledge graph-based neural-symbolic system from application perspective](https://arxiv.org/abs/2405.03524).
 
-- date: Jul 2021
+- date: Jan 2024
   description: >-
-    [_Nerfies_](https://nerfies.github.io) has been accepted to ICCV 2021 as an oral
-    presentation.
+    I join the UTSC Arts & Science Co-op team as a Data Analyst Intern.
 
-- date: Jun 2021
+- date: Dec 2023
   description: >-
-    We present [_HyperNeRF_](https://hypernerf.github.io), which uses ideas
-    from level set methods to model topologically changing scenes.
-
-- date: Nov 2020
-  description: >-
-    We present [_Nerfies_](https://nerfies.github.io), a way to turn
-    casually captured selfie videos into free-viewpoint visualizations.
-- date: Jun 2020
-  description: >-
-    We've released the
-    [code](https://github.com/NVlabs/latentfusion) and
-    [data](https://latentfusion.github.io) for [_LatentFusion_](https://latentfusion.github.io).
-- date: Feb 2020
-  description: >-
-    [_LatentFusion_](https://latentfusion.github.io), our paper on zero-shot pose estimation,
-    has been accepted to CVPR 2020.
+    I start my Deep Learning research work under the supervision of Prof.[Xujie Si](https://www.cs.toronto.edu/~six/).

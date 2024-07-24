@@ -42,7 +42,7 @@ layout: null
 
         <div class="column is-4">
           <div class="portrait">
-            <img src="{{ '/images/portrait.jpg' | relative_url }}" />
+            <img src="{{ '/images/selfie.jpg' | relative_url }}" />
           </div>
         </div>
 
@@ -53,7 +53,7 @@ layout: null
           <div class="content has-text-justified">
             {{ site.description | markdownify }}
             <div class="buttons">
-              <a class="external-link button is-light" href="cv.html">
+              <a class="external-link button is-light" href="files/Research_CV.pdf">
                 <span class="icon"><i class="fas fa-file"></i></span>
                 <span>CV</span>
               </a>
@@ -68,10 +68,9 @@ layout: null
                 <span class="icon"><i class="fab fa-github"></i></span>
                 <span>Github</span>
               </a>
-
-              <a class="external-link button is-light" href="https://twitter.com/{{ site.twitter_username }}">
-                <span class="icon"><i class="fab fa-twitter"></i></span>
-                <span>Twitter</span>
+              <a class="external-link button is-light" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+                <span class="icon"><i class="fab fa-linkedin"></i></span>
+                <span>Linkedin</span>
               </a>
             </div>
 
@@ -91,7 +90,7 @@ layout: null
   <section class="section">
     <div class="container is-max-desktop">
 
-      <!--<h2 class="title is-3">News</h2>
+      <h2 class="title is-3">News</h2>
       <div class="content">
         <ul>
           {% for news in site.data.news %}
@@ -100,7 +99,7 @@ layout: null
           </li>
           {% endfor %}
         </ul>
-      </div>-->
+      </div>
 
       <h2 class="title is-3">Publications</h2>
 
@@ -145,10 +144,12 @@ layout: null
             <p class="publication-description">{{ publication.description }}</p>
             <!-- Publication Links. -->
             <div class="publication-links buttons field has-addons">
+              {% if publication.project_page %}
               <a class="external-link button is-small is-ghost" href="{{ publication.project_page }}">
                 <span class="icon"><i class="fas fa-globe-asia"></i></span>
                 <span>Project Page</span>
               </a>
+              {% endif %}
               <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
                 <span>PDF</span>

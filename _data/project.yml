@@ -3,7 +3,7 @@
   venue: arXiv, 2024
   description: "This suvey paper explores KG-based neural-symbolic integration, enhancing neural reasoning, improving symbolic accuracy, and combining both"
   arxiv: 2405.03524
-  image: NS.png
+  image: reconfusion_before.png
   authors:
     - Shenzhe
     - Shengxiang

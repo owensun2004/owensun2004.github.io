@@ -18,22 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Keunhong Park
-name: Keunhong Park
-position: Research Scientist 
-email: dp9jalxhq@mozmail.com
+title: Shenzhe (Cho) Zhu
+name: Shenzhe (Cho) Zhu
+position: Research Assistant
+email: cho.zhu@mail.utoronto.ca
 description: >-
-  I am a researcher in 3D computer vision, generative models, and computer graphics. I was previously a research scientist at [Google](https://ai.google/research/).
-
-  I received my Ph.D from the [University of Washington](https://grail.cs.washington.edu/) in 2021 where I was advised by
-  [Ali Farhadi](https://homes.cs.washington.edu/~ali/) and
-  [Steve Seitz](https://homes.cs.washington.edu/~seitz/).
+  I am a researcher with interest in Trustworthy AI, LLM Interpretability & Alignment, 
+  Multimodal LLM, and Generative Agents. Currently, I am a third-year Computer Science student at the [University 
+  of Toronto](https://www.utoronto.ca/), supervised by [William Cunningham](https://www.psych.utoronto.ca/people/directories/all-faculty/william-cunningham) in the [SocialAI](https://social-ai.ca/) lab. 
+  Additionally, I collaborate remotely with the PRADA Lab at [King Abdullah University of Science and Technology(KAUST)](https://www.kaust.edu.sa/en/).
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://keunhong.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: KeunhongP
-github_username: keunhong
-google_scholar: HVZb-5oAAAAJ
-google_analytics: G-MFWSBLRKG0
+url: "https://shenzhezhu.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: ShenzheZhu
+google_scholar: WBZCniUAAAAJ
+linkedin_username: shenzhezhu0531
 
 # Build settings
 theme: minima

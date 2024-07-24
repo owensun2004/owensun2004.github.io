@@ -26,7 +26,8 @@ description: >-
   I am a researcher with interest in Trustworthy AI, LLM Interpretability & Alignment, 
   Multimodal LLM, and Generative Agents. Currently, I am a third-year Computer Science student at the [University 
   of Toronto](https://www.utoronto.ca/), supervised by [William Cunningham](https://www.psych.utoronto.ca/people/directories/all-faculty/william-cunningham) in the [SocialAI](https://social-ai.ca/) lab. 
-  Additionally, I collaborate remotely with the PRADA Lab at [King Abdullah University of Science and Technology(KAUST)](https://www.kaust.edu.sa/en/).
+  Additionally, I collaborate remotely with the PRADA Lab at [King Abdullah University of Science and Technology(KAUST)](https://www.kaust.edu.sa/en/). \n
+  email: cho.zhu at mail.utoronto.ca
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://shenzhezhu.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: ShenzheZhu

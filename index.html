@@ -129,7 +129,7 @@ layout: null
                 {{ author_data.first_name }} {{ author_data.middle_name }} {{ author_data.last_name }}{% if author.equal_contributor %}*{% endif %}{% if forloop.last == false %}, {% endif %}
                 {% else %}
                 <a href="{{ author_data.website }}">{{ author_data.first_name }} {{ author_data.middle_name }} {{ author_data.last_name
-                  }}</a>{% if forloop.last == false %},{% endif %}
+                  }}{% if author.equal_contributor %}*{% endif %}</a>{% if forloop.last == false %},{% endif %}
                 {% endif %}
               </span>
               {% endfor %}

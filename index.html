@@ -244,7 +244,7 @@ layout: null
         <ul>
           {% for employment in site.data.employment %}
           <li>
-            <b>{{ employment.company }}</b> - {{ employment.location }} <br>
+            <b>{{ employment.company }}</b><br>
             {{ employment.description | markdownify | remove: '<p>' | remove: '</p>' }}<br>
             <i>{{ employment.dates }}</i>
           </li>

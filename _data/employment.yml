@@ -1,42 +1,33 @@
-- company: Google
-  description: Research Scientist
-  dates: "May 2022 - Jan 2024"
-  location: San Francisco, CA
-
-- company: Google
+- company: Texas A&M University
   description: >-
-    Research Intern on the <a href="https://blog.google/technology/research/project-starline/">Project Starline</a> team.
-    Worked on <a href="https://nerfies.github.io">Nerfies</a> and <ahref="https://hypernerf.github.io">HyperNeRF</a>.
-  dates: "Jun 2020 - Sep 2021"
-  location: Seattle, WA
+    Research Assistant, advised by ZhengZhong Tu
+  dates: "July 2024 - Current"
+  location: College Station, TX
 
-- company: NVIDIA
+- company: PRADA LAB - King Abdullah University of Science and Technology
   description: >-
-    Robotics Research Intern at the <a href="https://www.nvidia.com/en-us/research/robotics/">Seattle Robotics Lab</a>.
-    Worked on <a href="https://latentfusion.github.io">LatentFusion</a>.
-  dates: "Jul 2019 - Nov 2019"
-  location: Seattle, WA
+    Collaborative Researcher
+  dates: "June 2024 - Current"
+  location: Remote
 
-- company: Amazon
+- company: Social AI Lab - University of Toronto
+  description: Research Assistant, advised by William Cunningham
+  dates: "May 2024 - Current"
+  location: Toronto, Canada
+
+- company: CoNSens Lab - University of Toronto
   description: >- 
-    Applied Scientist Intern on the <a href="https://amazon.com/go">Amazon Go</a> team.
-    Worked on human activity detection.
-  dates: "Jul 2017 - Sep 2017"
-  location: Seattle, WA
+    Research Assistant, advised by Matthias Niemeier
+  dates: "May 2024 - Aug 2024"
+  location: Toronto, Canada
 
-- company: Ministry of National Defense, Cyber Command
-  description: Software Engineer (mandatory military service). Worked on network monitoring software.
-  dates: "Oct 2013 - Jul 2015"
-  location: Seoul, Korea
+- company: Urban Data Research Center - University of Toronto
+  description: NLP Analyst
+  dates: "May 2024 - Aug 2024"
+  location: Toronto, Canada
 
-- company: Google
-  description: Software Engineering Intern. Create document conversion system for Google Cloud Print.
-  dates: "May 2013 - Aug 2013"
-  location: Mountain View, CA
-
-- company: Qualcomm
+- company: University of Toronto Scarborough
   description: >-
-    Software Engineering Intern. Optimized performance of JGit, reducing push times from hours to seconds.
-    Implemented multi-master support for Gerrit Code Review.
-  dates: "May 2012 - Aug 2012"
-  location: Boulder, CO
+    Data Analyst Intern
+  dates: "Jan 2024 - May 2024"
+  location: Toronto, Canada

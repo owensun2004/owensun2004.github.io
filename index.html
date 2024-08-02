@@ -238,6 +238,18 @@ layout: null
         </div>
       </div>
       {% endfor %}
+      <h2 class="title is-3">Education</h2>
+      <div class="content">
+      <ul>
+        {% for education in site.data.education %}
+      <li>
+        <b>{{ education.name }}</b> <br>
+          {{ education.description | markdownify | remove: '<p>' | remove: '</p>' }}<br>
+        <i>{{ education.dates }}</i>
+      </li>
+    { % endfor %}
+    </ul>
+    </div>
     </div>
   </section>
 

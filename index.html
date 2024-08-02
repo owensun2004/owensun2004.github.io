@@ -102,19 +102,6 @@ layout: null
         </ul>
       </div>
 
-      <h2 class="title is-3">Education</h2>
-      <div class="content">
-        <ul>
-          {% for education in site.data.education %}
-            <li>
-              <b>{{ education.name }}</b> <br>
-              {{ education.description | markdownify | remove: '<p>' | remove: '</p>' }}<br>
-              <i>{{ education.dates }}</i>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-
       <h2 class="title is-3">Publications/Pre-prints</h2>
 
       {% for publication in site.data.publications %}
@@ -255,6 +242,19 @@ layout: null
       <h2 class="title is-3">Education</h2>
       <div class="content">
         <ul>
+          {% for employment in site.data.employment %}
+          <li>
+            <b>{{ employment.company }}</b> - {{ employment.location }} <br>
+            {{ employment.description | markdownify | remove: '<p>' | remove: '</p>' }}<br>
+            <i>{{ employment.dates }}</i>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <h2 class="title is-3">Education</h2>
+      <div class="content">
+        <ul>
           {% for education in site.data.education %}
             <li>
               <b>{{ education.name }}</b> <br>
@@ -264,7 +264,7 @@ layout: null
           {% endfor %}
         </ul>
       </div>
-      
+
     </div>
   </section>
 

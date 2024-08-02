@@ -152,7 +152,7 @@ layout: null
               {% endif %}
               <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
-                <span>PDF</span>
+                <span>PDF</span>     <ul></ul>
               </a>
               <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ publication.arxiv }}">
                 <span class="icon"><i class="ai ai-arxiv"></i></span>
@@ -176,7 +176,7 @@ layout: null
       {% for project in site.data.projects %}
       <div class="publication-block columns">
 
-        <div class="column is-2">
+        <div class="column is-2">     <ul></ul>
           <div class="publication-image {% if project.image_mouseover %}publication-mousecell{% endif %}">
             {% if project.image_mouseover contains "mp4" %}
             <video autoplay preload playsinline class="" height="100%" loop muted width="100%">
@@ -195,7 +195,7 @@ layout: null
               {% for author_id in project.authors %}
               {% assign author = site.data.authors[author_id] %}
               <span class="author-block {% if author.is_me %}author-me{% endif %}">
-                {% if author.is_me %}
+                {% if author.is_me %}     <ul></ul>
                 {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}{% if forloop.last == false %},{%
                 endif %}
                 {% else %}
@@ -238,18 +238,19 @@ layout: null
         </div>
       </div>
       {% endfor %}
+      
       <h2 class="title is-3">Education</h2>
       <div class="content">
-      <ul>
-        {% for education in site.data.education %}
-      <li>
-        <b>{{ education.name }}</b> <br>
-          {{ education.description | markdownify | remove: '<p>' | remove: '</p>' }}<br>
-        <i>{{ education.dates }}</i>
-      </li>
-    { % endfor %}
-    </ul>
-    </div>
+        <ul>
+          {% for education in site.data.education %}
+          <li>
+            <b>{{ education.name }}</b> <br>
+              {{ education.description | markdownify | remove: '<p>' | remove: '</p>' }}<br>
+            <i>{{ education.dates }}</i>
+          </li>
+          { % endfor %}
+        </ul>
+      </div>
     </div>
   </section>
 

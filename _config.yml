@@ -18,19 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Shenzhe (Cho) Zhu
-name: Shenzhe (Cho) Zhu
+title: Shengxiang (Owen) Sun
+name: Shengxiang (Owen) Sun
 position: Research Assistant
-email: cho.zhu@mail.utoronto.ca
-description: |
-  I am a researcher with interest in **Trustworthy AI, LLM Interpretability & Alignment, Multimodal LLM, and Generative Agents**. Currently, I am a third-year Computer Science student at the [University of Toronto](https://www.utoronto.ca/), supervised by [William Cunningham](https://www.psych.utoronto.ca/people/directories/all-faculty/william-cunningham) in the [SocialAI](https://social-ai.ca/) lab. Additionally, I collaborate remotely with the PRADA Lab at [King Abdullah University of Science and Technology(KAUST)](https://www.kaust.edu.sa/en/). \
-  \
-  email: cho.zhu at mail.utoronto.ca
+email: owen.sun@mail.utoronto.ca
+description: >-
+  I am a third-year undergraduate at the [University of Toronto](https://www.utoronto.ca/) and a research assistant in the [Robot Vision & Learning Lab](https://rvl.cs.toronto.edu/), advised by Prof. [Florian Shkurti](https://www.cs.toronto.edu/~florian/).
+  My research interests lie at the intersection of robotics, computer vision, and machine learning. I'm particularily excited about methods and algorithms that enhance perception, reasoning, generalizability, and safety in robots. Currently, I am exploring uncertainty quantification methods in vision-language foundational models for robotic task and manipulation planning.
+
+  During my undergraduate studies, I completed a co-op work term at [Loblaw Digital](https://www.loblawdigital.co/) as part of the Generative AI team, where I used Large Language Models, particularly Google's Gemini Pro, to automate high-volume tasks such as email replies.
+
+  Previously, I had the opportunity to work with Prof. [Xujie Si](https://www.cs.toronto.edu/~six/) on neurosymbolic models. I also interened at [H3C](https://www.h3c.com/en/), a company founded by [Huawei](https://www.huawei.com/en/).
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://shenzhezhu.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: ShenzheZhu
-google_scholar: WBZCniUAAAAJ
-linkedin_username: shenzhezhu0531
+url: "https://owensun.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: owensun0402
+github_username: owensun2004
+google_scholar: 4nVa1oIAAAAJ
+linkedin_username: shengxiang-sun
 
 # Build settings
 theme: minima

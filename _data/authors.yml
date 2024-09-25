@@ -1,26 +1,35 @@
+Shengxiang:
+  first_name: Shengxiang
+  last_name: Sun
+  website: https://owensun2004.github.io/
+  is_me: true
+
 Shenzhe:
   first_name: Shenzhe
   last_name: Zhu
   website: https://shenzhezhu.github.io/
-  is_me: true
 
-Shengxiang:
-  first_name: Shengxiang
-  last_name: Sun
-  website: https://owensun2004.github.io/Portfolio/
+John:
+  first_name: Jonathan
+  last_name: Shanmuganantham
+  website: https://devpost.com/JonnyACCI
 
-Eric:
-  first_name: Eric
-  last_name: Xue
+Ana:
+  first_name: Ana
+  last_name: Mayer
+  website: https://devpost.com/JonnyACCI
 
-Rebekah:
-  first_name: Rebekah
-  last_name: Gelpi
+Qiao:
+  first_name: Qiao
+  last_name: Gu
+  website: https://georgegu1997.github.io/
 
-Wil:
-  first_name: William
-  last_name: A. Cunningham
-  website: https://www.psych.utoronto.ca/people/directories/all-faculty/william-cunningham
+Florian:
+  first_name: Florian
+  last_name: Shkurti
+  website: https://www.cs.toronto.edu/~florian/
 
-
-
+Yuanliang:
+  first_name: Yuanliang
+  last_name: Ju
+  website: https://x.com/averyjuuu0213

@@ -1,27 +1,23 @@
-- company: Texas A&M University
+- company: Robot Vision & Learning Lab, University of Toronto
   description: >-
-    Research Assistant, advised by Prof. ZhengZhong Tu
-  dates: "July 2024 - Current"
-
-- company: PRADA LAB - King Abdullah University of Science and Technology
-  description: >-
-    Collaborative Researcher
-  dates: "June 2024 - Current"
-
-- company: Social AI Lab - University of Toronto
-  description: Research Assistant, advised by Prof. William Cunningham
+    Research Assistant, advised by Prof. Florian Shkurti
+    Research Areas: decision making under uncertainty, foundational models for robotics, hierachical image segmentation
   dates: "May 2024 - Current"
 
-- company: CoNSens Lab - University of Toronto
-  description: >- 
-    Research Assistant, advised by Prof. Matthias Niemeier
-  dates: "May 2024 - Aug 2024"
-
-- company: Urban Data Research Center - University of Toronto
-  description: NLP Analyst
-  dates: "May 2024 - Aug 2024"
-  
-- company: University of Toronto Scarborough
+- company: Loblaw Digital
   description: >-
-    Data Analyst Intern
-  dates: "Jan 2024 - May 2024"
+    Machine Learning Engineer Co-op
+    Project: Generative AI for automated email replies
+  dates: "Jan 2024 - April 2024"
+
+- company: Department of Computer Science, University of Toronto
+  description: >-
+    Research Assistant, supervised by Prof. Xujie Si
+    Research Areas: Neurosymbolic AI, trustworthy & intepretable algorithms
+  dates: "Dec 2023 - April 2024"
+
+- company: H3C (founded by Huawei)
+  description: >-
+    Machine Learning Researcher Intern
+    Research Areas: multimodal large language models, diffusion dodels
+  dates: "Jul 2023 - August 2023"

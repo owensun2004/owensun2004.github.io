@@ -20,7 +20,7 @@
 - id: InterView
   title: "InterView - GenAI Genesis 2024"
   description: |
-    Awarded 'Best AI in Safety & Responsible AI.' \
+    Awarded first place in Best AI in Safety & Responsible AI. \
     \
     InterView is an AI platform that trains HR recruiters by providing real-time feedback on interview techniques and detecting biases related to age, gender, and ethnicity. It uses React for its frontend and Google's AI tools for accurate transcriptions and bias detection in interview transcripts.
   image: gallery.jpg

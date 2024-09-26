@@ -1,23 +1,23 @@
 - company: Robot Vision & Learning Lab, University of Toronto
-  description: >-
-    Research Assistant, advised by Prof. Florian Shkurti
-    Research Areas: decision making under uncertainty, foundational models for robotics, hierachical image segmentation
+  description: |
+    Research Assistant, advised by Prof. Florian Shkurti \
+    \Research Areas: decision making under uncertainty, foundational models for robotics, hierachical image segmentation
   dates: "May 2024 - Current"
 
 - company: Loblaw Digital
-  description: >-
-    Machine Learning Engineer Co-op
-    Project: Generative AI for automated email replies
+  description: |
+    Machine Learning Engineer Co-op \
+    \Project: Generative AI for automated email replies
   dates: "Jan 2024 - April 2024"
 
 - company: Department of Computer Science, University of Toronto
-  description: >-
-    Research Assistant, supervised by Prof. Xujie Si
-    Research Areas: Neurosymbolic AI, trustworthy & intepretable algorithms
+  description: |
+    Research Assistant, supervised by Prof. Xujie Si \
+    \Research Areas: Neurosymbolic AI, trustworthy & intepretable algorithms
   dates: "Dec 2023 - April 2024"
 
 - company: H3C (founded by Huawei)
-  description: >-
-    Machine Learning Researcher Intern
-    Research Areas: multimodal large language models, diffusion dodels
+  description: |
+    Machine Learning Researcher Intern \
+    \Research Areas: multimodal large language models, diffusion dodels
   dates: "Jul 2023 - August 2023"

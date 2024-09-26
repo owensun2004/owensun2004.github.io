@@ -10,16 +10,19 @@
     - Florian
 
 - id: GenAI
-  title: "GenAI for emails"
+  title: "GenAI For Automating Email Replies"
   description: "This project involved combining Python, CI/CD, and Gemini Pro to automate thousands of email replies per week at Loblaw Digital."
   image: unnamed.png
   github: null
   authors:
-    - Shengxiang
+    []
 
 - id: InterView
   title: "InterView - GenAI Genesis 2024"
-  description: "Awarded 'Best AI in Safety & Responsible AI.'' InterView is an AI platform that trains HR recruiters by providing real-time feedback on interview techniques and detecting biases related to age, gender, and ethnicity. It uses React for its frontend and Google's AI tools for accurate transcriptions and bias detection in interview transcripts."
+  description: |
+    Awarded 'Best AI in Safety & Responsible AI.' \
+    \
+    InterView is an AI platform that trains HR recruiters by providing real-time feedback on interview techniques and detecting biases related to age, gender, and ethnicity. It uses React for its frontend and Google's AI tools for accurate transcriptions and bias detection in interview transcripts.
   image: gallery.jpg
   github: jshan9078/interviewapp
   authors:

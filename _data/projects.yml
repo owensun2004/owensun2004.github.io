@@ -1,12 +1,10 @@
 - id: Uncertainty
-  title: "Uncertainty Quantification in Vision-Language Models"
-  description: "Ongoing research project to explore effective uncertainty estimation techniques for vision-language models."
+  title: "Image Part Segmentation For Downstream Robotic Tasks"
+  description: "Research project to explore effective and generalizable part segmentation models."
   image: unnamed (2).png
   github: null
   authors:
     - Shengxiang
-    - Qiao
-    - Yuanliang
     - Florian
 
 - id: GenAI

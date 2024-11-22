@@ -1,10 +1,10 @@
 ---
 title: "EgoLifter: Open-world 3D Segmentation for Egocentric Perception"
 collection: publications
-permalink: /publication/2024-03-conceptgraph
+permalink: /publication/2024-03-egolifter
 excerpt: ''
 date: 2024-03-01
-venue: 'Preprint'
+venue: 'European Conference on Computer Vision (ECCV), 2024'
 paperurl: 'https://arxiv.org/abs/2403.18118'
 imgurl: 'egolifter.gif'
 show: true

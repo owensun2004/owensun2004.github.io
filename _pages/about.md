@@ -41,12 +41,15 @@ Prior to this, I obtained an M.S. in Robotics from Carnegie Mellon University, w
 * Teaching Assistant for CSC384 - Intro to Artificial Intelligence, Winter 2022 at UofT
 * Teaching Assistant for CSC110 - Foundations of Computer Science I, Fall 2021 at UofT
 
-# Reviewer
+# Service
 
-* RA-L, ICML 2023, CVPR 2023, ICLR 2023, WACV 2023, ICCV 2023, CVPR 2022, ICLR 2022, WACV 2022, IROS 2022, NeurIPS 2022, ICCV 2021, ICRA 2021 and ECCV 2020
+* Reviwer for T-RO, TPAMI, IJRR, RA-L, NeurIPS, CVPR, ICLR, ICCV, ICRA, IROS, ECCV, ICML, WACV
 
 # Awards
 
+* Mary H. Beatty Fellowship (2024-2025)
+* NeurIPS Top Reviewer (2024)
+* Ray Reiter Graduate Award (2024)
 * Ontario Graduate Scholarship (2022-2023)
 * Acres Productive Technologies Inc./Joseph Yonan Memorial Fellowship (2023)
 * HKUST Academic Achievement Medal (2019)

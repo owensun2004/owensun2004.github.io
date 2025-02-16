@@ -1,11 +1,28 @@
 - id: realObjects
-  title: "Searching Realistic-Looking Adversarial Objects For Autonomous Driving Systems"
-  venue: arXiv, 2024
-  description: "This proposal explores ideas to create adversarial objects that are both realistic and effective for autonomous driving systems."
-  arxiv: 2405.11629
-  image: Untitled.png
+  title: "Manual2Skill: Learning to Read Manuals and Acquire Robotic Skills for Furniture Assembly Using Vision-Language Models"
+  venue: arXiv, 2025
+  description: "A novel framework that enables robots to autonomously perform complex assembly tasks in real-life guided by high-level manual instructions."
+  arxiv:
+  image: manual2skill_thumbnail.png
+  project_page: https://owensun2004.github.io/Furniture-Assembly-Web/
   authors:
+    - name: Chenrui
+      equal_contributor: true
     - name: Shengxiang
+      equal_contributor: true
+    - name: Jinxuan
       equal_contributor: false
-    - name: Shenzhe
+    - name: Yiwei
+      equal_contributor: false
+    - name: Jingxiang
+      equal_contributor: false
+    - name: Yue
+      equal_contributor: false
+    - name: Haonan
+      equal_contributor: false
+    - name: Junting
+      equal_contributor: false
+    - name: Ruihai
+      equal_contributor: false
+    - name: Lin
       equal_contributor: false

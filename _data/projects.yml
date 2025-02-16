@@ -1,6 +1,6 @@
 - id: Uncertainty
-  title: "Image Part Segmentation For Downstream Robotic Tasks"
-  description: "Research project to explore effective and generalizable part segmentation models."
+  title: "Uncertainty Quantification in Vision-Language Models"
+  description: "Summer research project to explore effective uncertainty estimation techniques for vision-language models."
   image: unnamed (2).png
   github: null
   authors:

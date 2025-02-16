@@ -9,7 +9,7 @@ layout: null
 
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link rel="icon" href="images/uoft_logo.png" type="image/png">
-  <title>Hi there! I'm {{ site.name }}</title>
+  <title>{{ site.name }}</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
@@ -49,7 +49,7 @@ layout: null
 
         <div class="column">
           <h1 class="title">
-            <b>{{ site.name }}</b>
+            <b>Hi there! I'm {{ site.name }}</b>
           </h1>
           <div class="content has-text-justified">
             {{ site.description | markdownify }}

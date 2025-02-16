@@ -1,3 +1,9 @@
+- company: LinS Lab, National University of Singapore
+  description: |
+    Research Assistant, advised by Prof. Lin Shao \
+    Research Areas: robot learning from structured knowledge, foundational models for robotics
+  dates: "October 2024 - Present"
+
 - company: Robot Vision & Learning Lab, University of Toronto
   description: |
     Research Assistant, advised by Prof. Florian Shkurti \
@@ -16,7 +22,7 @@
     Research Areas: Neurosymbolic AI, trustworthy & intepretable algorithms
   dates: "Dec 2023 - April 2024"
 
-- company: H3C (founded by Huawei)
+- company: New H3C Technologies
   description: |
     Machine Learning Researcher Intern \
     Research Areas: multimodal large language models, diffusion dodels

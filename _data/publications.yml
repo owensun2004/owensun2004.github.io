@@ -2,7 +2,7 @@
   title: "Manual2Skill: Learning to Read Manuals and Acquire Robotic Skills for Furniture Assembly Using Vision-Language Models"
   venue: arXiv, 2025
   description: "A novel framework that enables robots to autonomously perform complex assembly tasks in real-life guided by high-level manual instructions."
-  arxiv:
+  arxiv: 2502.10090
   image: manual2skill_thumbnail.png
   project_page: https://owensun2004.github.io/Furniture-Assembly-Web/
   authors:

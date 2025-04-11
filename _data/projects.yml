@@ -1,11 +1,11 @@
-- id: Uncertainty
-  title: "Uncertainty Quantification in Vision-Language Models"
-  description: "Summer research project to explore effective uncertainty estimation techniques for vision-language models."
-  image: unnamed (2).png
-  github: null
-  authors:
-    - Shengxiang
-    - Florian
+# - id: Uncertainty
+#   title: "Uncertainty Quantification in Vision-Language Models"
+#   description: "Summer research project to explore effective uncertainty estimation techniques for vision-language models."
+#   image: unnamed (2).png
+#   github: null
+#   authors:
+#     - Shengxiang
+#     - Florian
 
 - id: GenAI
   title: "GenAI For Automating Email Replies"

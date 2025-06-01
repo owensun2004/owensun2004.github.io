@@ -26,9 +26,9 @@
     <br>
     {% for author in post.authors %}
       {% if author.link.size > 0  %}
-        <a href="{{author.link}}" target="_blank">{{author.name}}</a>{% if author.star %}*{% endif %},
+        <a href="{{author.link}}" target="_blank">{{author.name}}</a>{% if author.star %}*{% endif %}{% unless forloop.last %}, {% endunless %}
       {% else %}
-        <strong>{{author.name}}</strong>{% if author.star %}*{% endif %},
+        <strong>{{author.name}}</strong>{% if author.star %}*{% endif %}{% unless forloop.last %}, {% endunless %}
       {% endif %}
     {% endfor %}
     

@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2025-03-sicnavdiff
 excerpt: ''
 date: 2025-03-01
-venue: 'Preprint'
+venue: 'Robotics and Automation Letter (RA-L), 2025'
 paperurl: 'https://arxiv.org/abs/2503.08858'
 imgurl: 'sicnav-diff-animated.gif'
 show: true

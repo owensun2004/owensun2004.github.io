@@ -45,8 +45,24 @@ html {
 }
 
 .publication-thumbnail {
-  width: 250px;   /* or your preferred size */
+  width: 550px;   /* or your preferred size */
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.top-nav, .masthead {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff; /* or your site background */
+  z-index: 1000;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+
+/* Add space at the top of your main content so it doesn't hide under the nav */
+body {
+  padding-top: 70px; /* Adjust this value to match your nav bar height */
 }

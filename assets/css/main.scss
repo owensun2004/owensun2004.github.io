@@ -45,27 +45,14 @@ html {
 }
 
 .publication-thumbnail {
-  width: 480px;   /* or your preferred size */
+  width: 480px;   /* Keep your larger thumbnail size */
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
-.top-nav, .masthead {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #fff; /* or your site background */
-  z-index: 1000;
-  border-bottom: 1px solid #eee;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
-}
-
-/* Add space at the top of your main content so it doesn't hide under the nav */
-body {
-  padding-top: 70px; /* Adjust this value to match your nav bar height */
-}
+/* Remove all the problematic fixed positioning */
+/* The theme handles layout properly by default */
 
 section[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
     scroll-margin-top: 90px;

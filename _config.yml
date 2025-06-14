@@ -7,14 +7,14 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Qiao Gu's Homepage"
+title                    : "Shengxiang Sun's Homepage"
 title_separator          : "-"
-name                     : &name "Qiao Gu"
-description              : &description "Qiao Gu, Ph.D. in Computer Science at University of Toronto"
-url                      : https://georgegu1997.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Shengxiang Sun"
+description              : &description "Shengxiang Sun, University of Toronto"
+url                      : https://owensun2004.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # url                      : "http://localhost:4000/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "georgegu1997/georgegu1997.github.io"
+repository               : "owensun2004/owensun2004.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -58,7 +58,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter qiaogu1997
+  username               : &twitter owensun0402
 facebook:
   username               :
   app_id                 :
@@ -72,23 +72,19 @@ social:
   links: # An array of links to social media profiles
 
 
-# Analytics
-analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :  "UA-190829886-1"
+
 
 
 # Site Author
 author:
-  name             : "Qiao Gu"
-  avatar           : "photo_3.jpg"
-  bio              : "Ph.D. Student in Computer Science at University of Toronto"
+  name             : "Shengxiang Sun"
+  avatar           : "profilepic.png"
+  bio              : "University of Toronto"
   location         : "Toronto, ON, Canada"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=MF7ISVAAAAAJ&hl=en"
-  email            : "q.gu@mail.utoronto.ca"
+  googlescholar    : https://scholar.google.ca/citations?hl=en&user=4nVa1oIAAAAJ
+  email            : "owen.sun@mail.utoronto.ca"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -97,13 +93,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "georgegu1997"
+  github           : "owensun2004"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/qiao-gu/"
+  linkedin         : "shengxiang-sun"
   orcid            : 
   pinterest        :
   soundcloud       :
@@ -116,7 +112,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  resume           : "files/Qiao_Gu_CV.pdf"
+  resume           : "files/Shengxiang_Sun_CV.pdf"
 
 
 # Reading Files

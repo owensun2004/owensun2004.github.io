@@ -45,7 +45,7 @@ html {
 }
 
 .publication-thumbnail {
-  width: 320px;   /* or your preferred size */
+  width: 480px;   /* or your preferred size */
   height: auto;
   display: block;
   margin: 0 auto;
@@ -67,10 +67,22 @@ body {
   padding-top: 70px; /* Adjust this value to match your nav bar height */
 }
 
+/* Make sidebar completely fixed - no scrolling at all */
 .sidebar {
-  padding-top: 120px; /* Adjust to match your nav bar height */
+  position: fixed !important;
+  top: 70px !important;  /* Position it right below the fixed nav bar */
+  left: 0 !important;
+  height: calc(100vh - 70px) !important;  /* Full height minus nav bar */
+  overflow-y: auto !important;  /* Allow scrolling within sidebar if content is too long */
+  z-index: 999 !important;  /* Make sure it's below the top nav but above main content */
+  padding-top: 20px !important;  /* Some spacing from the top */
+}
+
+/* Ensure main content doesn't overlap with fixed sidebar */
+.main-content, .page__content {
+  margin-left: 300px !important;  /* Adjust based on your sidebar width */
 }
 
 section[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
     scroll-margin-top: 90px;
-  }
+}

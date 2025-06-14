@@ -5,12 +5,12 @@ main:
 
   - title: "Publications"
     url: "#publications"
-
-  - title: "Internships"
-    url: "#internships"
   
   - title: "Awards"
     url: "#awards"
+
+  - title: "Internships"
+    url: "#internships"
   
   - title: "Education"
     url: "#education"

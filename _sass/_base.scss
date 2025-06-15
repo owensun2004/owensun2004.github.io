@@ -11,7 +11,8 @@ body {
   margin: 0;
   padding: 0;
   padding-bottom: 9em;
-  color: $text-color;
+  background-color: var(--background-color);
+  color: var(--text-color);
   font-family: $global-font-family;
   line-height: 1.5;
 
@@ -112,6 +113,8 @@ blockquote {
 /* links */
 
 a {
+  color: var(--link-color);
+
   &:focus {
     @extend %tab-focus;
   }
@@ -140,7 +143,7 @@ td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   font-size: $type-size-6;
-  background: $code-background-color;
+  background-color: var(--code-background-color);
   border: 1px solid $lighter-gray;
   border-radius: $border-radius;
   box-shadow: $box-shadow;
@@ -312,4 +315,16 @@ nav {
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+/* Links */
+a {
+  &:hover {
+    color: var(--link-color-hover);
+  }
+}
+
+/* Code blocks */
+code {
+  background-color: var(--code-background-color);
 }

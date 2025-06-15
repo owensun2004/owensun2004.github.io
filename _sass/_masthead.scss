@@ -4,12 +4,21 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--background-color);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
+
+  // Make masthead sticky on large screens
+  @include breakpoint($large) {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
 
   &__inner-wrap {
     @include container;
@@ -50,4 +59,29 @@
     padding-right: 2em;
     font-weight: 700;
   }
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background: none;
+  border: none;
+  color: var(--masthead-link-color);
+  font-size: 1.1em;
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    color: var(--masthead-link-color-hover);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  @include breakpoint($small) {
+    display: none; // Hide on mobile menu
+  }
+}
+
+[data-theme="dark"] .theme-toggle__icon:before {
+  content: "\f185"; // sun icon
 }

@@ -9,9 +9,9 @@
 .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
-
   @include clearfix();
   margin-bottom: 1em;
+  background-color: var(--background-color);
 
   @include breakpoint($large) {
     @include span(2 of 12);
@@ -22,8 +22,16 @@
     &:hover {
       opacity: 1;
     }
+    
+    // Ensure sidebar is sticky on large screens
+    &.sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 6em; // Account for masthead height
+      max-height: calc(100vh - 6em);
+      overflow-y: auto;
+    }
   }
-
 
   @include breakpoint($x-large) {
     padding-right: 0;

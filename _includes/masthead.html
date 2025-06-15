@@ -1,6 +1,6 @@
 {% include base_path %}
 
-<div class="masthead">
+<div class="masthead sticky">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
@@ -15,6 +15,11 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          <li class="masthead__menu-item">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+              <i class="fas fa-moon theme-toggle__icon"></i>
+            </button>
+          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

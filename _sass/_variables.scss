@@ -151,3 +151,32 @@ $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
+
+/* Dark theme colors */
+:root {
+  /* Light theme (default) */
+  --body-color: #{$body-color};
+  --background-color: #{$background-color};
+  --text-color: #{$text-color};
+  --border-color: #{$border-color};
+  --primary-color: #{$primary-color};
+  --code-background-color: #{$code-background-color};
+  --link-color: #{$link-color};
+  --link-color-hover: #{$link-color-hover};
+  --masthead-link-color: #{$masthead-link-color};
+  --masthead-link-color-hover: #{$masthead-link-color-hover};
+}
+
+[data-theme="dark"] {
+  /* Dark theme colors */
+  --body-color: #1a1a1a;
+  --background-color: #2d2d30;
+  --text-color: #e6e6e6;
+  --border-color: #4a4a4a;
+  --primary-color: #8a8a8a;
+  --code-background-color: #3c3c3c;
+  --link-color: #6bb6ff;
+  --link-color-hover: #4da3e0;
+  --masthead-link-color: #8a8a8a;
+  --masthead-link-color-hover: #b0b0b0;
+}

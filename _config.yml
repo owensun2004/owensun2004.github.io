@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shengxiang Sun's Homepage"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Shengxiang Sun"
 description              : &description "Shengxiang Sun, University of Toronto"

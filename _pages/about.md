@@ -42,6 +42,7 @@ My research focuses on robotics, computer vision, and machine learning, with a p
 # Internships
 
 * Machine Learning Engineer, Loblaw Digital, Toronto, Ontario, Canada (Jan 2024 - Apr 2024)
+* Machine Learning Research Intern, New H3C Technologies, Beijing, China (Jul 2023 - Aug 2023)
 
 <section id="education"></section>
 # Education

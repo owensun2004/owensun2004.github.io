@@ -14,7 +14,7 @@ I am a final-year Computer Science undergraduate at the University of Toronto, w
 
 My research spans robotics and 3D computer vision, with a focus on generalizable robot manipulation. I am particularly interested in enabling robots to perform complex, long-horizon tasks from simple instructions, such as, "prepare a dish from this cookbook." The solution I pursue involves leveraging Foundation Models to learn from the vast scale of existing human knowledge online, rather than relying on costly, manually collected data.
 
-**<span style="color:red;">I am actively seeking a Masters/PhD position in Robotics&CV in North America for Fall 2026!</span>**
+**<span style="color:red;">I am actively seeking a Masters/PhD position in Robotics & CV in North America for Fall 2026!</span>**
 
 <section id="publications"></section>
 # Selected Publications 

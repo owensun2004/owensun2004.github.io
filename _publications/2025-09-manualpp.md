@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2025-09-manualpp
 excerpt: 'A novel framework enabling robots to perform complex assembly tasks guided by high-level manual instructions, leveraging vision-language models and hierarchical assembly graphs.'
 date: 2025-09-01
-venue: 'ICRA 2026 (In Submission)'
+venue: 'In Submission'
 paperurl: ''
 imgurl: 'manualpp.png'
 show: true

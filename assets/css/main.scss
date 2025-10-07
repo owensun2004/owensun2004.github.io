@@ -51,6 +51,35 @@ html {
   margin: 0 auto;
 }
 
+/* Mobile responsive layout for publications */
+@media screen and (max-width: 768px) {
+  .publication-row {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    height: auto !important;
+  }
+  
+  .publication-image-cell,
+  .publication-text-cell {
+    display: block !important;
+    width: 100% !important;
+    padding: 15px 10px !important;
+  }
+  
+  .publication-image-cell {
+    padding-top: 0 !important;
+  }
+  
+  .publication-image-cell div {
+    height: auto !important;
+    max-width: 100% !important;
+  }
+  
+  .publication-thumbnail {
+    width: 100% !important;
+    max-width: 480px !important;
+  }
+}
 /* Remove all the problematic fixed positioning */
 /* The theme handles layout properly by default */
 

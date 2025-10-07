@@ -6,7 +6,7 @@ excerpt: 'A novel framework enabling robots to perform complex assembly tasks gu
 date: 2025-09-01
 venue: 'In Submission'
 paperurl: ''
-imgurl: 'manualpp.png'
+imgurl: 'm2s_10fps.gif'
 show: true
 authors:
   - name: Chenrui Tie*

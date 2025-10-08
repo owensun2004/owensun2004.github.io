@@ -100,8 +100,16 @@ $(document).ready(function(){
     $(".author__urls-wrapper button").toggleClass("open");
   });
 
-  // init smooth scroll
-  $("a").smoothScroll({offset: -20});
+  // init smooth scroll with responsive offset
+  function updateSmoothScroll() {
+    var offset = $(window).width() > 768 ? -100 : -20; // PC: -100px, Mobile: -20px
+    $("a").smoothScroll({offset: offset});
+  }
+  
+  updateSmoothScroll();
+  $(window).resize(function() {
+    updateSmoothScroll();
+  });
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");

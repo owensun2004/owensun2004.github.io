@@ -58,11 +58,33 @@ function updateNav() {
 
 }
 
-// Window listeners
-
+// Window listeners with debouncing for better performance
+var resizeTimer;
 $(window).resize(function() {
-  updateNav();
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(function() {
+    updateNav();
+  }, 100);
 });
+
+// Also handle fullscreen changes and orientation changes
+$(window).on('orientationchange', function() {
+  setTimeout(updateNav, 200);
+});
+
+// Handle fullscreen/maximize events more reliably
+$(document).on('fullscreenchange webkitfullscreenchange mozfullscreenchange MSFullscreenChange', function() {
+  setTimeout(updateNav, 200);
+});
+
+// Periodically check if nav needs updating (catches maximize/restore events)
+setInterval(function() {
+  var currentWidth = $nav.width();
+  if (currentWidth !== $nav.data('lastWidth')) {
+    $nav.data('lastWidth', currentWidth);
+    updateNav();
+  }
+}, 500);
 
 $btn.on('click', function() {
   $hlinks.toggleClass('hidden');

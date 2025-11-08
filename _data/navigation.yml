@@ -6,6 +6,9 @@ main:
   - title: "Publications"
     url: "#publications"
   
+  - title: "Academic Service"
+    url: "#service"
+
   - title: "Awards"
     url: "#awards"
 

@@ -33,6 +33,10 @@ My research spans robotics and 3D computer vision, with a focus on generalizable
 </tbody>
 </table>
 
+<section id="service"></section>
+
+* Reviewer for ICRA 2026, CVPR 2025 Robo-3DVLM
+
 <section id="awards"></section>
 # Selected Awards
 

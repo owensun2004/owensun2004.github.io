@@ -5,7 +5,7 @@ permalink: /publication/2025-09-manualpp
 excerpt: 'A novel framework enabling robots to perform complex assembly tasks guided by high-level manual instructions, leveraging vision-language models and hierarchical assembly graphs.'
 date: 2025-09-01
 venue: 'In Submission'
-paperurl: ''
+paperurl: 'https://arxiv.org/abs/2510.16344'
 imgurl: 'm2s_10fps.gif'
 show: true
 authors:
@@ -33,9 +33,9 @@ authors:
     link: https://warshallrho.github.io/
   - name: Lin Shao
     link: https://linsats.github.io/
-# links:
-#   - name: paper
-#     link: https://arxiv.org/abs/2502.10090  # Replace with actual arXiv link if available
+links:
+  - name: paper
+    link: https://arxiv.org/abs/2510.16344  # Replace with actual arXiv link if available
 #   - name: project page
 #     link: https://owensun2004.github.io/Furniture-Assembly-Web/
 ---

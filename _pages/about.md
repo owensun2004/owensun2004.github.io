@@ -10,7 +10,7 @@ redirect_from:
 
 <section id="about-me"></section>
 
-I am a final-year Computer Science undergraduate at the University of Toronto, working with Prof. [Weiyu Liu](https://www.weiyuliu.com/) from the University of Utah. Additionally, I have been privileged to collaborate with Prof. [Florian Shkurti](http://www.cs.toronto.edu/~florian/) from the University of Toronto and Prof. [Lin Shao](https://linsats.github.io/) from the National University of Singapore.
+I am a final-year Computer Science undergraduate at the University of Toronto, working with Dr. [Weiyu Liu](https://www.weiyuliu.com/) from Stanford University. Additionally, I have been privileged to collaborate with Prof. [Florian Shkurti](http://www.cs.toronto.edu/~florian/) from the University of Toronto and Prof. [Lin Shao](https://linsats.github.io/) from the National University of Singapore.
 
 My research spans robotics and 3D computer vision, with a focus on generalizable robot manipulation. I am particularly interested in enabling robots to perform complex, long-horizon tasks from simple instructions, such as, "prepare a dish from this cookbook." The solution I pursue involves leveraging Foundation Models to learn from the vast scale of existing human knowledge online, rather than relying on costly, manually collected data.
 

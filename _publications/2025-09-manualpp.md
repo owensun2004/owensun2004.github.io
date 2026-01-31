@@ -36,6 +36,6 @@ authors:
 links:
   - name: paper
     link: https://arxiv.org/abs/2510.16344  # Replace with actual arXiv link if available
-#   - name: project page
-#     link: https://owensun2004.github.io/Furniture-Assembly-Web/
+  - name: project page
+    link: https://manual2skillpp-icra.github.io/
 ---

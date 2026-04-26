@@ -9,6 +9,12 @@
       main.min.js has been rebuilt.
     - Uses plain DOM APIs so it runs even if jQuery failed to load.
     - Matches the early-theme script in head.html (same localStorage key).
+
+  IMPORTANT: this file is rendered through _layouts/compress.html in
+  production (JEKYLL_ENV=production on GitHub Pages), which strips ALL
+  newlines from the page, including inside <script>. That means a single
+  `//` line comment would swallow the rest of the script, turning it into
+  a syntax error. Use only /* ... */ block comments below.
 -->
 <script>
   (function () {
@@ -44,9 +50,9 @@
 
     if (prefersDark && typeof prefersDark.addEventListener === 'function') {
       prefersDark.addEventListener('change', function (ev) {
-        try {
-          if (localStorage.getItem('theme')) return; // user has an explicit choice
-        } catch (err) { /* ignore */ }
+        var hasExplicit = false;
+        try { hasExplicit = !!localStorage.getItem('theme'); } catch (err) { /* ignore */ }
+        if (hasExplicit) return; /* user has an explicit choice */
         root.setAttribute('data-theme', ev.matches ? 'dark' : 'light');
         syncIcon();
       });

@@ -1,4 +1,58 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<!--
+  Theme toggle click handler.
+  Kept as a standalone inline script on purpose:
+    - assets/js/main.min.js is a pre-built uglified bundle; if we relied on it
+      for this feature, we'd need `npm run uglify` to run on every change to
+      _main.js. Inlining here makes the toggle work regardless of whether
+      main.min.js has been rebuilt.
+    - Uses plain DOM APIs so it runs even if jQuery failed to load.
+    - Matches the early-theme script in head.html (same localStorage key).
+-->
+<script>
+  (function () {
+    var toggle = document.getElementById('theme-toggle');
+    if (!toggle) return;
+
+    var root = document.documentElement;
+    var prefersDark = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+
+    function currentTheme() {
+      return root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+    }
+
+    function syncIcon() {
+      var icon = toggle.querySelector('.theme-toggle__icon');
+      if (!icon) return;
+      if (currentTheme() === 'dark') {
+        icon.className = 'fas fa-sun theme-toggle__icon';
+      } else {
+        icon.className = 'fas fa-moon theme-toggle__icon';
+      }
+    }
+
+    syncIcon();
+
+    toggle.addEventListener('click', function (e) {
+      e.preventDefault();
+      var next = currentTheme() === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (err) { /* ignore */ }
+      syncIcon();
+    });
+
+    if (prefersDark && typeof prefersDark.addEventListener === 'function') {
+      prefersDark.addEventListener('change', function (ev) {
+        try {
+          if (localStorage.getItem('theme')) return; // user has an explicit choice
+        } catch (err) { /* ignore */ }
+        root.setAttribute('data-theme', ev.matches ? 'dark' : 'light');
+        syncIcon();
+      });
+    }
+  })();
+</script>
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}

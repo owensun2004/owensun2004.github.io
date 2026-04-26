@@ -3,48 +3,61 @@
    ========================================================================== */
 
 $(document).ready(function(){
-  
-  // Theme Toggle Functionality
-  const themeToggle = document.getElementById('theme-toggle');
-  const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
-  
-  // Get saved theme or default to system preference
-  const currentTheme = localStorage.getItem('theme') || 
-    (prefersDarkScheme.matches ? 'dark' : 'light');
-  
-  // Apply initial theme
-  document.documentElement.setAttribute('data-theme', currentTheme);
-  
-  // Update toggle icon based on current theme
+
+  /*
+   * Theme toggle.
+   *
+   * NOTE: The live site also inlines a standalone copy of this handler in
+   * _includes/scripts.html so that the toggle works even if main.min.js has
+   * not been rebuilt from _main.js. Kept here for parity so that anyone who
+   * runs `npm run uglify` still gets a working handler.
+   *
+   * Everything is guarded with null checks: previously this block would throw
+   * a TypeError when #theme-toggle was not in the DOM, which aborted the
+   * rest of $(document).ready (breaking smooth scroll, lightbox, etc.).
+   */
+  var themeToggle = document.getElementById('theme-toggle');
+  var prefersDarkScheme = window.matchMedia
+    ? window.matchMedia('(prefers-color-scheme: dark)')
+    : null;
+
+  var storedTheme = null;
+  try { storedTheme = localStorage.getItem('theme'); } catch (e) { /* ignore */ }
+  var initialTheme = storedTheme ||
+    (prefersDarkScheme && prefersDarkScheme.matches ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+
   function updateToggleIcon(theme) {
-    const icon = themeToggle.querySelector('.theme-toggle__icon');
-    if (theme === 'dark') {
-      icon.className = 'fas fa-sun theme-toggle__icon';
-    } else {
-      icon.className = 'fas fa-moon theme-toggle__icon';
-    }
+    if (!themeToggle) return;
+    var icon = themeToggle.querySelector('.theme-toggle__icon');
+    if (!icon) return;
+    icon.className = theme === 'dark'
+      ? 'fas fa-sun theme-toggle__icon'
+      : 'fas fa-moon theme-toggle__icon';
   }
-  
-  updateToggleIcon(currentTheme);
-  
-  // Theme toggle click handler
-  themeToggle.addEventListener('click', function() {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    updateToggleIcon(newTheme);
-  });
-  
-  // Listen for system theme changes
-  prefersDarkScheme.addEventListener('change', function(e) {
-    if (!localStorage.getItem('theme')) {
-      const newTheme = e.matches ? 'dark' : 'light';
-      document.documentElement.setAttribute('data-theme', newTheme);
-      updateToggleIcon(newTheme);
-    }
-  });
+
+  updateToggleIcon(initialTheme);
+
+  if (themeToggle) {
+    themeToggle.addEventListener('click', function () {
+      var cur = document.documentElement.getAttribute('data-theme');
+      var next = cur === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) { /* ignore */ }
+      updateToggleIcon(next);
+    });
+  }
+
+  if (prefersDarkScheme && typeof prefersDarkScheme.addEventListener === 'function') {
+    prefersDarkScheme.addEventListener('change', function (e) {
+      var hasExplicit = false;
+      try { hasExplicit = !!localStorage.getItem('theme'); } catch (err) { /* ignore */ }
+      if (hasExplicit) return;
+      var next = e.matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', next);
+      updateToggleIcon(next);
+    });
+  }
 
   // Sticky footer
   var bumpIt = function() {

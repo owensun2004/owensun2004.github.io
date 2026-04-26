@@ -177,6 +177,86 @@ $global-transition          : all 0.2s ease-in-out;
   --code-background-color: #3c3c3c;
   --link-color: #6bb6ff;
   --link-color-hover: #4da3e0;
-  --masthead-link-color: #8a8a8a;
-  --masthead-link-color-hover: #b0b0b0;
+  --masthead-link-color: #cfcfcf;
+  --masthead-link-color-hover: #ffffff;
+}
+
+/* ==========================================================================
+   Dark-mode overrides.
+   Most of this theme's SCSS uses hard-coded Sass variables ($background-color,
+   $lighter-gray, etc.) instead of CSS custom properties, so toggling
+   [data-theme="dark"] on :root only repaints a few elements by default.
+   The rules below target the remaining high-visibility elements (masthead,
+   nav, footer, dropdowns, code blocks, tables) so flipping the toggle
+   produces a visibly different page.
+   ========================================================================== */
+[data-theme="dark"] {
+  .greedy-nav {
+    background: var(--background-color);
+
+    a {
+      color: var(--masthead-link-color);
+
+      &:hover {
+        color: var(--masthead-link-color-hover);
+      }
+    }
+
+    .hidden-links {
+      background: #3a3a3d;
+      border-color: var(--border-color);
+
+      a:hover {
+        color: var(--masthead-link-color-hover);
+        background: #4a4a4d;
+      }
+
+      &:after {
+        border-color: #3a3a3d transparent;
+      }
+    }
+  }
+
+  .page__footer {
+    background-color: #242427;
+    border-top-color: var(--border-color);
+    color: #cfcfcf;
+  }
+
+  .page__content {
+    h2 {
+      border-bottom-color: var(--border-color);
+    }
+  }
+
+  p > code,
+  a > code,
+  li > code,
+  figcaption > code,
+  td > code,
+  pre,
+  code {
+    background-color: var(--code-background-color);
+    border-color: var(--border-color);
+    color: #f0f0f0;
+  }
+
+  hr {
+    border-top-color: var(--border-color);
+  }
+
+  table {
+    color: var(--text-color);
+  }
+
+  .btn--inverse {
+    background-color: transparent;
+    color: var(--text-color) !important;
+    border-color: var(--border-color) !important;
+  }
+
+  .author__bio,
+  .author__name {
+    color: var(--text-color);
+  }
 }

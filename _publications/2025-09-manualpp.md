@@ -14,7 +14,7 @@ authors:
   - name: Shengxiang Sun*
     link:
   - name: Yudi Lin
-    link: https://owensun2004.github.io/
+    link: https://scholar.google.com/citations?user=jf2Z6QQAAAAJ&hl=en
   - name: Yanbo Wang
     link: https://owensun2004.github.io/
   - name: Zhongrui Li

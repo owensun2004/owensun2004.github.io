@@ -23,7 +23,8 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    position: relative; /* anchor for absolutely-positioned theme toggle */
+    padding: 1em 3em 1em 1em; /* reserve right space so menu items don't collide with toggle */
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -61,27 +62,63 @@
   }
 }
 
-/* Theme Toggle Button */
-.theme-toggle {
-  background: none;
-  border: none;
+/* ==========================================================================
+   Theme Toggle Button
+   - Lives inside .masthead__inner-wrap, OUTSIDE of .greedy-nav, so it is not
+     affected by the `.greedy-nav button { position:absolute; right:0; ... }`
+     rule that styles the hamburger/navicon button, and is not moved around
+     by the greedy-navigation JS (which pushes overflowing <li>s into
+     .hidden-links).
+   ========================================================================== */
+.masthead .theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: 0.75em;
+  transform: translateY(-50%);
+  z-index: 30; /* above nav links and the hamburger button */
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25em;
+  height: 2.25em;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+
+  background: transparent;
+  border: 0;
+  outline: none;
+  border-radius: 50%;
   color: var(--masthead-link-color);
   font-size: 1.1em;
   cursor: pointer;
-  padding: 0.5em;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-  
-  &:hover {
+  -webkit-appearance: none;
+          appearance: none;
+  transition: color 0.2s ease, background-color 0.2s ease,
+              box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover,
+  &:focus {
     color: var(--masthead-link-color-hover);
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(127, 127, 127, 0.15);
+    outline: none;
   }
-  
-  @include breakpoint($small) {
-    display: none; // Hide on mobile menu
+
+  &:focus-visible {
+    box-shadow: 0 0 0 2px var(--link-color);
+  }
+
+  &:active {
+    transform: translateY(-50%) scale(0.92);
+  }
+
+  .theme-toggle__icon {
+    pointer-events: none; /* make sure clicks always land on the <button> */
+    font-size: 1em;
   }
 }
 
 [data-theme="dark"] .theme-toggle__icon:before {
-  content: "\f185"; // sun icon
+  content: "\f185"; /* sun icon in dark mode */
 }

@@ -37,5 +37,5 @@ links:
   - name: paper
     link: https://arxiv.org/abs/2510.16344  # Replace with actual arXiv link if available
   - name: project page
-    link: https://manual2skillpp-icra.github.io/
+    link: https://nus-lins-lab.github.io/Manual2SkillPP/
 ---
